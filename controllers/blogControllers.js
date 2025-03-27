@@ -56,7 +56,7 @@ export const getSingleBlog = async (req, res) => {
 
 // Delete Blog
 export const deleteBlog = async (req, res) => {
-    const id = req.query.slug;
+    const id = req.query.id;
     console.log(id)
 
     try {
